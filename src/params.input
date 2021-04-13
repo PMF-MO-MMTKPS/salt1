@@ -5,14 +5,11 @@ TEnd = 100000    # [s]
 [Grid]
 LowerLeft = 0 0
 UpperRight = 2 1
-Cells = 160 80
+Cells = 80 40
 
 [Problem]
 Name = Henry # name passed to the output routines
-EnableGravity = true # enable gravity
-Permeability = 1.00728E-9
-Porosity = 0.35
-Inflow = 6.6E-8
+EnableGravity = true # enable gravity 
 
 [Vtk]
 AddVelocity = true # enable velocity output
