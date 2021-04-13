@@ -1,0 +1,12 @@
+################################
+# Dune module information file #
+################################
+
+# Name of the module
+Module: salt1
+Version: 1.0
+Maintainer: jurak@math.hr
+# Required build dependencies
+Depends: dumux
+# Optional build dependencies
+#Suggests:
